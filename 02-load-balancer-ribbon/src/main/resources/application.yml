@@ -1,0 +1,42 @@
+---
+spring:
+  profiles: server-1
+  application:
+    name: server
+server:
+  port: 9001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka/
+  instance:
+    lease-expiration-duration-in-seconds: 5
+    lease-renewal-interval-in-seconds: 1
+---
+spring:
+  profiles: server-2
+  application:
+    name: server
+server:
+  port: 9002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka/
+  instance:
+    lease-expiration-duration-in-seconds: 5
+    lease-renewal-interval-in-seconds: 1
+---
+spring:
+  profiles: client
+  application:
+    name: client
+server:
+  port: 0
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka/
+  instance:
+    lease-expiration-duration-in-seconds: 5
+    lease-renewal-interval-in-seconds: 1
