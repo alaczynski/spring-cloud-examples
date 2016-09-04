@@ -5,6 +5,8 @@
 - http://cloud.spring.io/spring-cloud-static/Brixton.SR5/
 - https://github.com/spring-cloud-samples
 - http://docs.spring.io/spring/docs/4.3.2.RELEASE/spring-framework-reference/html/
+- https://spring.io/guides
+- https://spring.io/blog
 
 # 01-service-discovery-eureka
 - http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_spring_cloud_netflix
