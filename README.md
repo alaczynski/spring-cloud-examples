@@ -8,6 +8,10 @@
 - https://spring.io/guides
 - https://spring.io/blog
 
+# actuator
+- org.springframework.boot:spring-boot-starter-actuator, org.springframework.boot:spring-boot-actuator-docs
+- http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready
+
 # 01-service-discovery-eureka
 - http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_spring_cloud_netflix
 - https://github.com/Netflix/eureka/wiki
