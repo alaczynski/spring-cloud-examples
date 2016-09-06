@@ -26,6 +26,7 @@
         <module>01-service-discovery-eureka-client</module>
         <module>02-load-balancer-ribbon</module>
         <module>03-rest-client-feign</module>
+        <module>04-circuit-breaker-hystrix</module>
     </modules>
 
     <dependencyManagement>

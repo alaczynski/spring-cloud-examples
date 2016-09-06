@@ -22,3 +22,9 @@
 # 03-rest-client-feign
 - http://projects.spring.io/spring-cloud/spring-cloud.html#spring-cloud-feign
 - https://github.com/OpenFeign/feign
+
+# 04-circuit-breaker-hystrix
+- http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_circuit_breaker_hystrix_clients
+- https://github.com/Netflix/Hystrix
+- https://github.com/Netflix/Hystrix/wiki/Configuration
+- http://martinfowler.com/bliki/CircuitBreaker.html
