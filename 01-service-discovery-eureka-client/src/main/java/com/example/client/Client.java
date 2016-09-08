@@ -19,8 +19,7 @@ import static org.springframework.web.util.UriComponentsBuilder.fromUri;
 public class Client implements CommandLineRunner {
     private static Log logger = LogFactory.getLog(Client.class);
 
-    @Autowired
-    private DiscoveryClient client;
+    @Autowired private DiscoveryClient client;
 
     public static void main(String[] args) {
         SpringApplication application = new SpringApplication(Client.class);
@@ -31,11 +30,13 @@ public class Client implements CommandLineRunner {
     @Override
     public void run(String... strings) throws Exception {
         logger.info("services: " + client.getServices());
-        logger.info("eureka-client-server instances: " + client.getInstances("eureka-client-server"));
-        ServiceInstance serviceInstance = client.getInstances("eureka-client-server").get(0);
-        String textInUpperCase = new RestTemplate().getForObject(
-                fromUri(serviceInstance.getUri()).path("text-to-upper-case").queryParam("text", "some_text").toUriString(),
-                String.class);
+        logger.info("server instances: " + client.getInstances("server"));
+
+        ServiceInstance serviceInstance = client.getInstances("server").get(0);
+        String uri = fromUri(serviceInstance.getUri()).path("text-to-upper-case")
+                .queryParam("text", "some_text")
+                .toUriString();
+        String textInUpperCase = new RestTemplate().getForObject(uri, String.class);
         assertThat(textInUpperCase).isEqualTo("SOME_TEXT");
     }
 }

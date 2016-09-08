@@ -2,27 +2,27 @@
 spring:
   profiles: server
   application:
-    name: eureka-client-server
+    name: server
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:9000/eureka/
   instance:
-    lease-expiration-duration-in-seconds: 5
+    lease-expiration-duration-in-seconds: 2
     lease-renewal-interval-in-seconds: 1
 server:
-  port: 8001
+  port: 9001
 ---
 spring:
   profiles: client
   application:
-      name: eureka-client-client
+      name: client
 server:
-  port: 8002
+  port: 9002
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:9000/eureka/
   instance:
-    lease-expiration-duration-in-seconds: 5
+    lease-expiration-duration-in-seconds: 2
     lease-renewal-interval-in-seconds: 1

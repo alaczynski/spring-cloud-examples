@@ -10,7 +10,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:9000/eureka/
   instance:
-    lease-expiration-duration-in-seconds: 5
+    lease-expiration-duration-in-seconds: 2
     lease-renewal-interval-in-seconds: 1
 ---
 spring:
@@ -24,7 +24,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:9000/eureka/
   instance:
-    lease-expiration-duration-in-seconds: 5
+    lease-expiration-duration-in-seconds: 2
     lease-renewal-interval-in-seconds: 1
 ---
 spring:
@@ -38,5 +38,5 @@ eureka:
     service-url:
       defaultZone: http://localhost:9000/eureka/
   instance:
-    lease-expiration-duration-in-seconds: 5
+    lease-expiration-duration-in-seconds: 2
     lease-renewal-interval-in-seconds: 1

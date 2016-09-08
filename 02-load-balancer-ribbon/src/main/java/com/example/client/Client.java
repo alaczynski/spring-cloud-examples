@@ -31,9 +31,8 @@ public class Client implements CommandLineRunner {
     public void run(String... strings) throws Exception {
         for (int i = 0; i < 100; i++) {
             ServiceInstance serviceInstance = client.choose("server");
-            String name = new RestTemplate().getForObject(
-                    fromUri(serviceInstance.getUri()).path("name").toUriString(),
-                    String.class);
+            String uri = fromUri(serviceInstance.getUri()).path("name").toUriString();
+            String name = new RestTemplate().getForObject(uri, String.class);
             logger.info(name);
         }
     }
