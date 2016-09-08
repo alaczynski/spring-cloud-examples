@@ -32,3 +32,6 @@
 - https://github.com/Netflix/Hystrix
 - https://github.com/Netflix/Hystrix/wiki/Configuration
 - http://martinfowler.com/bliki/CircuitBreaker.html
+
+# 05-config-server
+- http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_spring_cloud_config
