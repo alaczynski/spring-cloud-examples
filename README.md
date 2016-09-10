@@ -42,3 +42,9 @@
 - https://www.rabbitmq.com/install-windows.html
 - http://www.erlang.org/downloads
 
+# 07-tracing
+- http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_spring_cloud_sleuth
+- https://spring.io/blog/2016/02/15/distributed-tracing-with-spring-cloud-sleuth-and-spring-cloud-zipkin
+- http://zipkin.io/
+- http://research.google.com/pubs/pub36356.html
+

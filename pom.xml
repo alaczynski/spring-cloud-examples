@@ -31,6 +31,8 @@
         <module>05-config-client</module>
         <module>06-cloud-bus-server</module>
         <module>06-cloud-bus-client</module>
+        <module>07-tracing-services</module>
+        <module>07-tracing-zipkin-server</module>
     </modules>
 
     <dependencies>

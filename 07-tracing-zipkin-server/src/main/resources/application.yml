@@ -1,0 +1,9 @@
+---
+spring:
+  profiles: zipkin
+  application:
+    name: zipkin
+  zipkin:
+    base-url:
+server:
+  port: 9411
