@@ -29,6 +29,8 @@
         <module>04-circuit-breaker-hystrix</module>
         <module>05-config-server</module>
         <module>05-config-client</module>
+        <module>06-cloud-bus-server</module>
+        <module>06-cloud-bus-client</module>
     </modules>
 
     <dependencies>

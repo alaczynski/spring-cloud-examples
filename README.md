@@ -36,3 +36,9 @@
 
 # 05-config-server
 - http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_spring_cloud_config
+
+# 06-cloud-bus
+- http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_spring_cloud_bus
+- https://www.rabbitmq.com/install-windows.html
+- http://www.erlang.org/downloads
+
