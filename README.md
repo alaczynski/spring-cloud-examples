@@ -7,6 +7,7 @@
 - http://docs.spring.io/spring/docs/4.3.2.RELEASE/spring-framework-reference/html/
 - https://spring.io/guides
 - https://spring.io/blog
+- https://spring.io/blog/2015/07/14/microservices-with-spring
 
 # actuator
 - org.springframework.boot:spring-boot-starter-actuator, org.springframework.boot:spring-boot-actuator-docs
