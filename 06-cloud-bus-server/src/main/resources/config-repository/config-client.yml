@@ -1,0 +1,15 @@
+---
+spring:
+  profiles: dev
+
+env.name: dev
+key: dev-value
+dev.key: dev-key-value
+
+---
+spring:
+  profiles: prod
+
+env.name: prod
+key: prod-value
+prod.key: prod-key-value

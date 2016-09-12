@@ -2,14 +2,15 @@ server:
   port: 9001
 
 spring:
+  profiles:
+    active: native
   application:
     name: config-server
   cloud:
     config:
       server:
-        git:
-          uri: file://C:/Users/adaml/projects/spring-cloud/spring-cloud-examples/
-          search-paths: 05-config-server/config-repository
+        native:
+          search-locations: classpath:/config-repository
     bus:
       trace:
         enabled: true
