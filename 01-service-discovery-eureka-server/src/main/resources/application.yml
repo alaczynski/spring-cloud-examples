@@ -1,6 +1,6 @@
 ---
 # standalone eureka server
-# http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_standalone_mode
+# http://cloud.spring.io/spring-cloud-static/Camden.SR3/#_standalone_mode
 spring:
   profiles: default
   application.name: eureka-server
@@ -14,7 +14,8 @@ eureka:
     fetchRegistry: false
     service-url:
       defaultZone: http://localhost:9000/eureka/
-
+  server:
+    eviction-interval-timer-in-ms: 10000
 ---
 spring:
   profiles: eureka-server-1
@@ -24,7 +25,8 @@ server:
 eureka:
   client:
     serviceUrl.defaultZone: http://localhost:9002/eureka/
-
+  server:
+    eviction-interval-timer-in-ms: 10000
 ---
 spring:
   profiles: eureka-server-2
@@ -34,3 +36,5 @@ server:
 eureka:
   client:
     serviceUrl.defaultZone: http://localhost:9001/eureka/
+  server:
+    eviction-interval-timer-in-ms: 10000

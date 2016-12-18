@@ -14,7 +14,7 @@
 - http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready
 
 # 01-service-discovery-eureka
-- http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_spring_cloud_netflix
+- http://cloud.spring.io/spring-cloud-static/Camden.SR3/#spring-cloud-eureka-server
 - https://github.com/Netflix/eureka/wiki
 - https://github.com/Netflix/eureka/wiki/Configuring-Eureka
 - https://github.com/Netflix/eureka/wiki/Eureka-at-a-glance
