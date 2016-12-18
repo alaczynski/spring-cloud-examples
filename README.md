@@ -1,10 +1,10 @@
 # common
+- Spring Cloud - http://cloud.spring.io/spring-cloud-static/Camden.SR3/
+- String Boot - http://docs.spring.io/spring-boot/docs/1.4.2.RELEASE/reference/html/
+- String Framework - http://docs.spring.io/spring/docs/4.3.4.RELEASE/spring-framework-reference/html/
 - http://netflix.github.io/
 - https://github.com/Netflix
-- http://docs.spring.io/spring-boot/docs/1.4.0.RELEASE/reference/html/
-- http://cloud.spring.io/spring-cloud-static/Brixton.SR5/
 - https://github.com/spring-cloud-samples
-- http://docs.spring.io/spring/docs/4.3.2.RELEASE/spring-framework-reference/html/
 - https://spring.io/guides
 - https://spring.io/blog
 - https://spring.io/blog/2015/07/14/microservices-with-spring
