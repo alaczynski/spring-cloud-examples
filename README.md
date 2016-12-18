@@ -48,3 +48,6 @@
 - http://zipkin.io/
 - http://research.google.com/pubs/pub36356.html
 
+# 08-admin
+- https://github.com/codecentric/spring-boot-admin
+- https://spring.io/blog/2016/12/07/spring-tips-bootiful-dashboards
