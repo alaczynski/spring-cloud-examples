@@ -20,7 +20,7 @@
 - https://github.com/Netflix/eureka/wiki/Eureka-at-a-glance
 
 # 02-load-balancer-ribbon
-- http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#spring-cloud-ribbon
+- http://cloud.spring.io/spring-cloud-static/Camden.SR3/#spring-cloud-ribbon
 - https://spring.io/guides/gs/client-side-load-balancing/
 - https://github.com/Netflix/ribbon
 
@@ -29,25 +29,25 @@
 - https://github.com/OpenFeign/feign
 
 # 04-circuit-breaker-hystrix
-- http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_circuit_breaker_hystrix_clients
+- http://cloud.spring.io/spring-cloud-static/Camden.SR3/#_circuit_breaker_hystrix_clients
 - https://github.com/Netflix/Hystrix
 - https://github.com/Netflix/Hystrix/wiki/Configuration
 - http://martinfowler.com/bliki/CircuitBreaker.html
 
 # 05-config-server
-- http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_spring_cloud_config
+- http://cloud.spring.io/spring-cloud-static/Camden.SR3/#_spring_cloud_config
 
 # 06-cloud-bus
-- http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_spring_cloud_bus
+- http://cloud.spring.io/spring-cloud-static/Camden.SR3/#_spring_cloud_bus
 - https://www.rabbitmq.com/install-windows.html
 - http://www.erlang.org/downloads
 
 # 07-tracing
-- http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#_spring_cloud_sleuth
+- http://cloud.spring.io/spring-cloud-static/Camden.SR3/#_spring_cloud_sleuth
 - https://spring.io/blog/2016/02/15/distributed-tracing-with-spring-cloud-sleuth-and-spring-cloud-zipkin
 - http://zipkin.io/
 - http://research.google.com/pubs/pub36356.html
 
-# 08-admin
+# 08-admin-server
 - https://github.com/codecentric/spring-boot-admin
 - https://spring.io/blog/2016/12/07/spring-tips-bootiful-dashboards
