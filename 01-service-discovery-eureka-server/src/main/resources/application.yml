@@ -16,6 +16,9 @@ eureka:
       defaultZone: http://localhost:9000/eureka/
   server:
     eviction-interval-timer-in-ms: 10000
+  instance:
+    lease-expiration-duration-in-seconds: 2
+    lease-renewal-interval-in-seconds: 1
 ---
 spring:
   profiles: eureka-server-1

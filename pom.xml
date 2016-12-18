@@ -33,6 +33,7 @@
         <module>06-cloud-bus-client</module>
         <module>07-tracing-services</module>
         <module>07-tracing-zipkin-server</module>
+        <module>08-admin</module>
     </modules>
 
     <dependencies>
