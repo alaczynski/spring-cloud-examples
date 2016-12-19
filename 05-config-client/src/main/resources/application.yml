@@ -2,11 +2,11 @@
 spring:
   profiles: prod
 server:
-  port: 9002
+  port: 8001
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:9000/eureka/
+      defaultZone: http://localhost:7001/eureka/
   instance:
     lease-expiration-duration-in-seconds: 2
     lease-renewal-interval-in-seconds: 1

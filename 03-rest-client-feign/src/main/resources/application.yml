@@ -4,11 +4,11 @@ spring:
   application:
     name: server
 server:
-  port: 9001
+  port: 8001
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:9000/eureka/
+      defaultZone: http://localhost:7001/eureka/
   instance:
     lease-expiration-duration-in-seconds: 2
     lease-renewal-interval-in-seconds: 1
@@ -18,11 +18,11 @@ spring:
   application:
     name: server
 server:
-  port: 9002
+  port: 8002
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:9000/eureka/
+      defaultZone: http://localhost:7001/eureka/
   instance:
     lease-expiration-duration-in-seconds: 2
     lease-renewal-interval-in-seconds: 1
@@ -32,11 +32,11 @@ spring:
   application:
     name: client
 server:
-  port: 9003
+  port: 9001
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:9000/eureka/
+      defaultZone: http://localhost:7001/eureka/
   instance:
     lease-expiration-duration-in-seconds: 2
     lease-renewal-interval-in-seconds: 1

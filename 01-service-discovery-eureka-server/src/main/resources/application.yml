@@ -5,7 +5,7 @@ spring:
   profiles: default
   application.name: eureka-server
 server:
-  port: 9000
+  port: 7001
 eureka:
   client:
     # In standalone mode, you might prefer to switch off the client side behaviour,
@@ -13,7 +13,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     service-url:
-      defaultZone: http://localhost:9000/eureka/
+      defaultZone: http://localhost:7001/eureka/
   server:
     eviction-interval-timer-in-ms: 10000
   instance:
@@ -24,10 +24,10 @@ spring:
   profiles: eureka-server-1
   application.name: eureka-server-1
 server:
-  port: 9001
+  port: 7001
 eureka:
   client:
-    serviceUrl.defaultZone: http://localhost:9002/eureka/
+    serviceUrl.defaultZone: http://localhost:7002/eureka/
   server:
     eviction-interval-timer-in-ms: 10000
 ---
@@ -35,9 +35,9 @@ spring:
   profiles: eureka-server-2
   application.name: eureka-server-2
 server:
-  port: 9002
+  port: 7002
 eureka:
   client:
-    serviceUrl.defaultZone: http://localhost:9001/eureka/
+    serviceUrl.defaultZone: http://localhost:7001/eureka/
   server:
     eviction-interval-timer-in-ms: 10000

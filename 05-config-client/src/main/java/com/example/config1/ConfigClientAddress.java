@@ -1,17 +1,15 @@
-package com.example;
+package com.example.config1;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.context.annotation.ComponentScan;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@ComponentScan(excludeFilters = @ComponentScan.Filter(value = SpringBootApplication.class))
 public class ConfigClientAddress implements CommandLineRunner {
 
     @Value("${env.name}") private String env;

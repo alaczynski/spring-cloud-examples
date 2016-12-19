@@ -36,6 +36,7 @@
 
 # 05-config-server
 - http://cloud.spring.io/spring-cloud-static/Camden.SR3/#_spring_cloud_config
+- http://cloud.spring.io/spring-cloud-static/Camden.SR3/#_file_system_backend
 
 # 06-cloud-bus
 - http://cloud.spring.io/spring-cloud-static/Camden.SR3/#_spring_cloud_bus
