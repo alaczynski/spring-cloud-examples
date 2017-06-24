@@ -13,6 +13,7 @@ eureka:
     lease-renewal-interval-in-seconds: 1 # default: 30
 server:
   port: 8001
+management.security.enabled: false
 ---
 spring:
   profiles: client
@@ -27,3 +28,4 @@ eureka:
   instance:
     lease-expiration-duration-in-seconds: 2
     lease-renewal-interval-in-seconds: 1
+management.security.enabled: false
