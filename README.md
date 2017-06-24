@@ -1,7 +1,7 @@
 # common
-- Spring Cloud - http://cloud.spring.io/spring-cloud-static/Camden.SR3/
-- String Boot - http://docs.spring.io/spring-boot/docs/1.4.2.RELEASE/reference/html/
-- String Framework - http://docs.spring.io/spring/docs/4.3.4.RELEASE/spring-framework-reference/html/
+- Spring Cloud - http://cloud.spring.io/spring-cloud-static/Dalston.SR1/
+- String Boot - https://docs.spring.io/spring-boot/docs/1.5.4.RELEASE/reference/htmlsingle/
+- String Framework - http://docs.spring.io/spring/docs/4.3.9.RELEASE/spring-framework-reference/htmlsingle/
 - http://netflix.github.io/
 - https://github.com/Netflix
 - https://github.com/spring-cloud-samples
@@ -14,10 +14,13 @@
 - http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready
 
 # 01-service-discovery-eureka
-- http://cloud.spring.io/spring-cloud-static/Camden.SR3/#spring-cloud-eureka-server
+- http://cloud.spring.io/spring-cloud-static/Dalston.SR1/#spring-cloud-eureka-server
 - https://github.com/Netflix/eureka/wiki
 - https://github.com/Netflix/eureka/wiki/Configuring-Eureka
 - https://github.com/Netflix/eureka/wiki/Eureka-at-a-glance
+- https://github.com/Netflix/eureka/blob/master/eureka-core/src/main/java/com/netflix/eureka/EurekaServerConfig.java
+- https://github.com/Netflix/eureka/blob/master/eureka-core/src/main/java/com/netflix/eureka/DefaultEurekaServerConfig.java
+- https://github.com/Netflix/eureka/blob/master/eureka-client/src/main/java/com/netflix/appinfo/AbstractInstanceConfig.java
 
 # 02-load-balancer-ribbon
 - http://cloud.spring.io/spring-cloud-static/Camden.SR3/#spring-cloud-ribbon

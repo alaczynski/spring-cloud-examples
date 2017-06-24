@@ -8,8 +8,9 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka/
   instance:
-    lease-expiration-duration-in-seconds: 2
-    lease-renewal-interval-in-seconds: 1
+    # https://github.com/Netflix/eureka/blob/master/eureka-client/src/main/java/com/netflix/appinfo/AbstractInstanceConfig.java
+    lease-expiration-duration-in-seconds: 2 # default: 90
+    lease-renewal-interval-in-seconds: 1 # default: 30
 server:
   port: 8001
 ---
