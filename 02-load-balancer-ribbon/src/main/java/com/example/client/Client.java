@@ -34,14 +34,14 @@ public class Client implements CommandLineRunner {
     @Override
     public void run(String... strings) throws Exception {
         logger.info("LoadBalancerClient usage...");
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 10; i++) {
             ServiceInstance serviceInstance = client.choose("server");
             String uri = fromUri(serviceInstance.getUri()).path("name").toUriString();
             String name = new RestTemplate().getForObject(uri, String.class);
             logger.info(name);
         }
         logger.info("Load balanced RestTemplate usage...");
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 10; i++) {
             String name = restTemplate.getForObject("http://server/name", String.class);
             logger.info(name);
         }

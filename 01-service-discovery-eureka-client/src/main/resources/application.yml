@@ -18,7 +18,7 @@ management.security.enabled: false
 spring:
   profiles: client
   application:
-      name: client
+    name: client
 server:
   port: 8002
 eureka:
