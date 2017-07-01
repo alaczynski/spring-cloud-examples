@@ -22,6 +22,7 @@
     </properties>
 
     <modules>
+        <module>00-service-communication</module>
         <module>01-service-discovery-eureka-server</module>
         <module>01-service-discovery-eureka-client</module>
         <module>02-load-balancer-ribbon</module>

@@ -1,0 +1,6 @@
+---
+spring.profiles: server
+server.port: 8001
+---
+spring.profiles: client
+server.port: 8002
