@@ -8,9 +8,8 @@ spring:
       server:
         native:
           search-locations: classpath:/config-repository
-
 server.port: 7004
-
+management.security.enabled: false
 eureka:
   client:
     service-url:

@@ -5,6 +5,7 @@ spring:
     name: server
 server:
   port: 8001
+management.security.enabled: false
 eureka:
   client:
     service-url:
@@ -17,10 +18,9 @@ spring:
   profiles: client
   application:
     name: client
-
 server:
   port: 9001
-
+management.security.enabled: false
 eureka:
   client:
     service-url:

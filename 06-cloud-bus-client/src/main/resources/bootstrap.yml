@@ -12,6 +12,7 @@ spring:
         service-id: config-server
         enabled: true
 
+management.security.enabled: false
 
 # http://cloud.spring.io/spring-cloud-static/Brixton.SR5/#discovery-first-bootstrap
 # eureka must be defined in bootsteap to get info about config server when spring.cloud.config.discovery.enabled=true

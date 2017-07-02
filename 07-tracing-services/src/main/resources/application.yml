@@ -4,9 +4,10 @@ spring:
   application:
       name: service-1
 
-
 server:
   port: 9001
+
+management.security.enabled: false
 
 eureka:
   client:
@@ -24,6 +25,8 @@ spring:
 
 server:
   port: 9002
+
+management.security.enabled: false
 
 eureka:
   client:

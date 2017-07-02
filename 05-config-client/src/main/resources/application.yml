@@ -3,6 +3,7 @@ spring:
   profiles: prod
 server:
   port: 8001
+management.security.enabled: false
 eureka:
   client:
     service-url:

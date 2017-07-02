@@ -14,6 +14,7 @@ spring:
     bus:
       trace:
         enabled: true
+management.security.enabled: false
 eureka:
   client:
     service-url:
